@@ -1,0 +1,202 @@
+[
+  {
+    "request_id": "request_01",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This is a clear unaffordable request with zero proposed spending modifications and ample margin buffer, classifying it as standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_02",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a straightforward rejection recommendation with zero proposed spending adjustments and ample margin buffer.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_03",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This request is a straightforward rejection with zero proposed spending adjustments, classifying it as standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_04",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a clear rejection with zero proposed spending adjustments, placing it into the standard risk tier.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_05",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a straightforward full payment with no spending adjustments, no multi-payment schedule, and a healthy margin ratio well above the 20% threshold.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_06",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This request is a clear unaffordable recommendation with zero proposed spending adjustments, placing it under standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_07",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "An elevated risk classification is assigned due to the recommended installment payment schedule and a tight margin ratio of 17.6%, which falls below the 20% threshold.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_08",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This is a straightforward clear rejection with zero proposed spending adjustments and ample margin buffer, classifying it as standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_09",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a straightforward full payment with an ample margin buffer ratio of 1.744 and no proposed spending adjustments.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_10",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a clear non-recommendation with zero proposed spending adjustments and an ample margin ratio, qualifying it as standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_11",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This is a straightforward wait recommendation with no spending adjustments proposed and a sufficient margin buffer.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_12",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The recommended method involves an installment payment schedule, which triggers an elevated risk classification requiring an extra grounding verification pass.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_13",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a clear unaffordable decision with zero proposed spending modifications, placing it in the standard risk tier.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_14",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is recommended as not feasible with zero proposed spending modifications, qualifying it as a standard clear unaffordable rejection.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_15",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This decision is a clear unaffordable request with zero proposed spending adjustments, placing it under standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_16",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The decision requires an elevated risk status and grounding recheck due to a tight margin buffer of 5.4%, which falls below the 20% safety threshold.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_17",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The decision is a clear unaffordable recommendation with zero proposed spending adjustments, placing it under standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_18",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The request is a clear wait decision with no proposed spending adjustments, multi-part payments, or tight margin headroom.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_19",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This is a clear unaffordable request with no proposed spending adjustments, placing it under standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_20",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The request is flagged as elevated risk due to a tight margin ratio above floor of 12.9% and a history of conflicting claim resolution.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_21",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The request is routed to elevated risk because the margin ratio above floor is 1.1%, which falls below the 20% buffer threshold.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_22",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The request involves a multi-payment installment schedule, placing it under elevated risk evaluation requiring an additional grounding recheck.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_23",
+    "requires_grounding_recheck": true,
+    "risk_flag": "elevated",
+    "reasoning": "The request exhibits tight margin headroom with a ratio above floor of 18.6%, which falls below the 20% threshold and requires an elevated risk classification.",
+    "extra_pass_ran": true,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_24",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "This request is a clear unaffordable decision with zero proposed spending adjustments, placing it under standard risk.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  },
+  {
+    "request_id": "request_25",
+    "requires_grounding_recheck": false,
+    "risk_flag": "standard",
+    "reasoning": "The decision is a clear rejection with zero proposed spending modifications, placing it under the standard risk tier.",
+    "extra_pass_ran": false,
+    "router_call_status": "success"
+  }
+]

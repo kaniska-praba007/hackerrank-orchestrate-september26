@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+cache/
+output_test.csv
+.pytest_cache/
+.coverage
