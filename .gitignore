@@ -6,3 +6,13 @@ cache/
 output_test.csv
 .pytest_cache/
 .coverage
+# Documentation markdown files
+/docs/*.md
+docs/*.md
+
+# Intermediate artifacts and archives
+*.zip
+code.zip
+normalized_events.csv
+normalization_report.json
+orchestration_log.json
